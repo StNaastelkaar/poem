@@ -1,0 +1,40 @@
+:root {
+  color: rgb(58, 58, 58);
+  background-color: rgb(224, 224, 224);
+  font-family: sans-serif;
+  /* font-size: 40px; */
+}
+
+.cyoa-item {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* headers */
+.cyoa-item h1 {
+  font-family: serif;
+  font-size: 3rem;
+}
+
+/* text */
+.cyoa-item p,
+.cyoa-item li,
+.cyoa-item a {
+  font-size: 1.5rem;
+  text-decoration: none;
+}
+
+/* item text */
+.cyoa-item p {
+  padding-left: 1rem;
+}
+
+/* choices list */
+.cyoa-item ol {
+  list-style-type: decimal;
+  padding-left: 2.5rem;
+}
+
+.cyoa-item li {
+  padding: .5rem 0;
+}
