@@ -2,11 +2,10 @@ const choices = [
   { id: "undefined",
     title: "You dun goofed",
     body: "'t huidige id is 'undefined', je hebt dus iets verkeerd gedaan..."
-  },
-  {
+  }, {
     id: "intro-001",
     title: "START",
-    body: "Toen Darius dit gedicht voor zich nam <br> schrok hij zich bijna lam. <br> Want toen hij plots twee keuzes voor zich zag,",
+    body: "Toen Darius dit spel tot zich nam <br> schrok hij zich een hoedje-lam. <br> TOen hij twee keuzes voor zich zag,",
     options: [
       { id: "intro-002", name: "verscheen er bij hem een brede lach!" },
       { id: "intro-003", name: "raakte hij toch wat van slag!" }
@@ -26,7 +25,7 @@ const choices = [
       { id: "intro-004", name: "en begin met goede moet aan zijn nieuwe spel." }
     ]
   }, {
-    id: "intro-005",
+    id: "intro-004",
     title: "",
     body: "TO BE CONTINUED"
   }
