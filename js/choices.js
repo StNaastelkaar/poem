@@ -5,8 +5,8 @@ const choices = [
   },
   {
     id: "001-start",
-    title: "Welkom!",
-    body: "Dit is het begin van dit cooloe <br> kies-je-eigen-avontuur",
+    title: "START",
+    body: "Toen Darius dit gedicht voor zich nam <br> schrok hij zich bijna lam. <>",
     options: [
       { id: "002-nope-im-out", name: "NOPE!" },
       { id: "003-yes-lets-go", name: "Let's GOOOO!" }
