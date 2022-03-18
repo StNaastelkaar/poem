@@ -6,7 +6,7 @@ const choices = [
   {
     id: "001-start",
     title: "Welkom!",
-    body: "Dit is het begin van dit cooloe \n kies-je-eigen-avontuur",
+    body: "Dit is het begin van dit cooloe <br> kies-je-eigen-avontuur",
     options: [
       { id: "002-nope-im-out", name: "NOPE!" },
       { id: "003-yes-lets-go", name: "Let's GOOOO!" }
