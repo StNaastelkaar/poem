@@ -19,10 +19,9 @@ const choices = [
     ]
   }, {
     id: "intro-003",
-    title: "",
     body: "Hij naam een diepe ademteug en bedaarde snel,",
     options: [
-      { id: "intro-004", name: "en begin met goede moet aan zijn nieuwe spel." }
+      { id: "intro-004", name: "en begon met goede moet aan zijn nieuwe spel." }
     ]
   }, {
     id: "intro-004",
