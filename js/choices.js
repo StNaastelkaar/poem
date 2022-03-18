@@ -4,14 +4,15 @@ const choices = [
     body: "'t huidige id is 'undefined', je hebt dus iets verkeerd gedaan..."
   }, {
     id: "START",
-    title: "START",
+    title: "WELKOM NIEUWE SPELER",
+    body: "Klik \"START\" om een nieuw spel te beginnen.",
     options: [
       { id: "intro-001", name: "START" }
     ]
   }, {
     id: "intro-001",
-    title: "START",
-    body: "Toen Darius dit spel tot zich nam <br> schrok hij zich een hoedje-lam. <br> TOen hij twee keuzes voor zich zag,",
+    title: "Tutorial",
+    body: "Toen Darius dit spel tot zich nam <br> schrok hij zich een hoedje-lam. <br> Toen hij twee keuzes voor zich zag,",
     options: [
       { id: "intro-002", name: "verscheen er bij hem een brede lach!" },
       { id: "intro-003", name: "raakte hij toch wat van slag!" }
@@ -25,6 +26,7 @@ const choices = [
     ]
   }, {
     id: "intro-003",
+    title: "",
     body: "Hij naam een diepe ademteug en bedaarde snel,",
     options: [
       { id: "intro-004", name: "en begon met goede moet aan zijn nieuwe spel." }
