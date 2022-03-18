@@ -12,7 +12,7 @@ const choices = [
   }, {
     id: "intro-001",
     title: "Tutorial",
-    body: "Toen Darius dit spel tot zich nam <br> schrok hij zich een hoedje-lam. <br> Toen hij twee keuzes voor zich zag,",
+    body: "Toen Darius dit spel tot zich nam <br> schrok hij zich een hoedje-lam. <br> En bij de twee keuzes die hij voor zich zag,",
     options: [
       { id: "intro-002", name: "verscheen er bij hem een brede lach!" },
       { id: "intro-003", name: "raakte hij toch wat van slag!" }
@@ -22,14 +22,14 @@ const choices = [
     title: "",
     body: "\"Dit is leuk\", zij hij, \"dit is uniek\"!",
     options: [
-      { id: "intro-004", name: "vertelde hij aan zijn publiek" }
+      { id: "intro-004", name: "vertelde hij aan zijn publiek." }
     ]
   }, {
     id: "intro-003",
     title: "",
     body: "Hij naam een diepe ademteug en bedaarde snel,",
     options: [
-      { id: "intro-004", name: "en begon met goede moet aan zijn nieuwe spel." }
+      { id: "intro-004", name: "en begon met goede moed aan zijn nieuwe spel." }
     ]
   }, {
     id: "intro-004",
