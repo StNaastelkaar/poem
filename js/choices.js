@@ -4,26 +4,30 @@ const choices = [
     body: "'t huidige id is 'undefined', je hebt dus iets verkeerd gedaan..."
   },
   {
-    id: "001-start",
+    id: "intro-001",
     title: "START",
-    body: "Toen Darius dit gedicht voor zich nam <br> schrok hij zich bijna lam. <>",
+    body: "Toen Darius dit gedicht voor zich nam <br> schrok hij zich bijna lam. <br> Want toen hij plots twee keuzes voor zich zag,",
     options: [
-      { id: "002-nope-im-out", name: "NOPE!" },
-      { id: "003-yes-lets-go", name: "Let's GOOOO!" }
+      { id: "intro-002", name: "verscheen er bij hem een brede lach!" },
+      { id: "intro-003", name: "raakte hij toch wat van slag!" }
     ]
   }, {
-    id: "002-nope-im-out",
-    title: "Nope I'm out!",
-    body: "kthnxbye"
-  }, {
-    id: "003-yes-lets-go",
-    title: "Yes! Let's go!",
-    body: "Cool :)",
+    id: "intro-002",
+    title: "",
+    body: "\"Dit is leuk\", zij hij, \"dit is uniek\"!",
     options: [
-      { id: "005-id-only-test" },
-      { name: "Name only test" },
-      { id: "001-start" },
-      { id: "003-yes-lets-go" }
+      { id: "intro-004", name: "vertelde hij aan zijn publiek" }
     ]
+  }, {
+    id: "intro-003",
+    title: "",
+    body: "Hij naam een diepe ademteug en bedaarde snel,",
+    options: [
+      { id: "intro-004", name: "en begin met goede moet aan zijn nieuwe spel." }
+    ]
+  }, {
+    id: "intro-005",
+    title: "",
+    body: "TO BE CONTINUED"
   }
 ]
