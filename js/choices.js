@@ -3,6 +3,12 @@ const choices = [
     title: "You dun goofed",
     body: "'t huidige id is 'undefined', je hebt dus iets verkeerd gedaan..."
   }, {
+    id: "START",
+    title: "START",
+    options: [
+      { id: "intro-001", name: "START" }
+    ]
+  }, {
     id: "intro-001",
     title: "START",
     body: "Toen Darius dit spel tot zich nam <br> schrok hij zich een hoedje-lam. <br> TOen hij twee keuzes voor zich zag,",

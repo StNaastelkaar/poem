@@ -6,7 +6,7 @@ const choiceElement = document.getElementById("current-choice");
 
 const cyoa = new CYOA(onIdChanged, choiceElement, choices);
 
-const hash = document.location.hash.substring(1) || "001-start";
+const hash = document.location.hash.substring(1) || "START";
 document.location.hash = `#${hash}`;
 cyoa.render(hash);
 
