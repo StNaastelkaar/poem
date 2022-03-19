@@ -42,7 +42,7 @@ const choices = [
     ]
   }, {
     id: "serius-02", title: "",
-    body: "\"Maar wacht toch eens een momentje even\", <br> dacht Darius, \"ben ik mijn doel niet voorbij aan het streven?\" <br> Een gedachte ontname hem wat van zijn stoom <br> Want <i>hit<\i> zo'n stressvol spel niet wat te <i>close to home!?<\i>?<br>\"Wat is dit spel mijn humeur doet verzuren!?\"",
+    body: "\"Maar wacht toch eens een momentje even\", <br> dacht Darius, \"ben ik mijn doel niet voorbij aan het streven?\" <br> Een gedachte ontname hem wat van zijn stoom <br> Want <i>hit</i> zo'n stressvol spel niet wat te <i>close to home!?</i>?<br>\"Wat als dit spel mijn humeur doet verzuren!?\"",
     options: [
       { id: "thesis-01", name: "\"Heb ik naast mijn THESIS niet al genoeg te verduren?\"" },
       { id: "cbs-01", name: "\"Heb ik naast mijn WERK niet al genoeg te verduren?\"" }
@@ -64,7 +64,7 @@ const choices = [
     id: "thesis-END", title: "",
     body: "Oh. Uhm. Darius besefte zich dat, in zijn haast, <br> hij bijna langs het spel heen was geraasd. <br> Na een moment van rust en wat bezinnen, ",
     options: [
-      {id: "intro-01", name:"besloot Darius weer van te beginnen."},
+      {id: "intro-01", name:"besloot Darius weer vanaf het begin te beginnen."},
       {id: "END", name:"zou hij toch eindelijk aan het spel beginnen!"}
     ]
   }, {
@@ -78,9 +78,9 @@ const choices = [
     body: ""
   }, {
     id: "END", title: "DIT IS HET EINDE",
-    body: "Wacht, je dacht toch niet dat dit je cadeau was? Pak Stanley's cadeau maar. <br> En zoek een hobby o zo. <br> Of begin opnieuw, ik ben je baas niet.", 
+    body: "Wacht, je dacht toch niet dat dit je cadeau was? <br> Pak Stanley's cadeau maar. <br> En zoek een hobby of zo. <br> Of begin opnieuw, ik ben je baas niet.", 
     options: [
-      {id: "START", name:"Restart"}
+      {id: "START", name:"Begin Opnieuw"}
     ]
   }
 ]
