@@ -5,24 +5,24 @@ const choices = [
   }, {
     id: "START",
     title: "WELKOM NIEUWE SPELER",
-    body: "Klik \"START\" om een nieuw spel te beginnen.",
+    body: "Toen Darius dit start scherm zach, klikte hij snel op...",
     options: [
-      { id: "intro-001", name: "START" }
+      { id: "intro-001", name: "START!" }
     ]
   }, {
     id: "intro-001",
     title: "Tutorial",
-    body: "Toen Darius dit spel tot zich nam <br> schrok hij zich een hoedje-lam. <br> En bij de twee keuzes die hij voor zich zag,",
+    body: "Toen Darius dit spel tot zich nam <br> schrok hij zich een hoedje-lam. <br> Twee spannende keuze die hij daar voor zich zag,",
     options: [
-      { id: "intro-002", name: "verscheen er bij hem een brede lach!" },
-      { id: "intro-003", name: "raakte hij toch wat van slag!" }
+      { id: "intro-002", name: "En er verscheen bij hem een brede lach!" },
+      { id: "intro-003", name: "Daarvan raakte hij toch wat van slag!" }
     ]
   }, {
     id: "intro-002",
     title: "",
-    body: "\"Dit is leuk\", zij hij, \"dit is uniek\"!",
+    body: "\"Dit is leuk\", zij hij, \"dit is uniek\"! <br> Vertelde hij aan zijn publiek. <br> En nog voor Darius zich kon vervelen,",
     options: [
-      { id: "intro-004", name: "vertelde hij aan zijn publiek." }
+      { id: "intro-004", name: "begon gij al snel het spel te spelen." }
     ]
   }, {
     id: "intro-003",
