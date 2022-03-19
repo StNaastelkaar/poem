@@ -11,8 +11,8 @@ const choices = [
     ]
   }, {
     id: "intro-001",
-    title: "Tutorial",
-    body: "Toen Darius dit spel tot zich nam <br> schrok hij zich een hoedje-lam. <br> Twee spannende keuze die hij daar voor zich zag,",
+    title: "TUTORIAL",
+    body: "Toen Darius dit spel tot zich nam, <br> schrok hij zich een hoedje-lam. <br> Twee spannende keuze die hij daar voor zich zag,",
     options: [
       { id: "intro-002", name: "En er verscheen bij hem een brede lach!" },
       { id: "intro-003", name: "Daarvan raakte hij toch wat van slag!" }
@@ -34,6 +34,18 @@ const choices = [
   }, {
     id: "intro-004",
     title: "",
-    body: "TO BE CONTINUED"
+    body: "Oh, de spanning, oh de mogelijkheden, <br> maar waar zou hij zijn playthrough aan besteden? <br> \"Ik weet\", zij Darius, \"wat ik wil gamen!\"",
+    options: [
+      { id: "serius-001", name: "Een uitdagend spel, vol raadsels en problemen!" },
+      { id: "play-001", name: "Een ontspannen spel, dat ik rustig kan ondernemen." },
+    ]
+  }, {
+    id: "serius-001",
+    title: "TBC",
+    body: ""
+  }, {
+    id: "play-001",
+    title: "TBC",
+    body: ""
   }
 ]
