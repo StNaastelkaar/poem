@@ -42,10 +42,19 @@ const choices = [
     ]
   }, {
     id: "serius-002", title: "",
-    body: "\"Maar wacht toch eens een momentje even\", <br> dacht Darius, \"ben ik mijn doel niet voorbij aan het streven?\" <br> Een gedachte ontname hem wat van zijn stoom <br> Want <i>hit<\i> zo'n molijk spel niet wat te <i>close to home<\i>?"
+    body: "\"Maar wacht toch eens een momentje even\", <br> dacht Darius, \"ben ik mijn doel niet voorbij aan het streven?\" <br> Een gedachte ontname hem wat van zijn stoom <br> Want <i>hit<\i> zo'n stressvol spel niet wat te <i>close to home!?<\i>?<br>\"Wat is dit spel mijn humeur doet verzuren!?\"",
+    options: [
+      { id: "thesis-001", name: "\"Heb ik naast mijn THESIS niet al genoeg te verduren?\"" },
+      { id: "work-001", name: "\"Heb ik naast mijn WERK niet al genoeg te verduren?\"" }
+    ]
   }, {
-    id: "play-001",
-    title: "TBC",
+    id: "thesis-001", title: "TBC",
+    body: ""
+  }, {
+    id: "work-001", title: "TBC",
+    body: ""
+  }, {
+    id: "play-001", title: "TBC",
     body: ""
   }
 ]
