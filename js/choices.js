@@ -81,13 +81,22 @@ const choices = [
       { id: "gamer-01", name: "Verantwoordelijkheden combineren met 1337 gamerschap!"}
     ]
   }, {
-    id: "gamer-01", title: "",
-    body: "Een moment als nerd, zonder kantoor of pedel,",
+    id: "gamer-01", title: "", 
+    body: "Een moment als nerd voor zichzelf, zonder kantoor of pedel,",
     options: [
       {id: "", name: "en nu kunnen ontspannen, met een ROLLENSPEL."},
       {id: "", name: "en nu kunnen ontspannen, met een BORDSPEL."},
       {id: "", name: "en nu kunnen ontspannen, met een COMPUTERSPEL."}
     ] 
+  }, {
+    id: "rpg-01", title: "TBC",
+    body: ""
+  }, {
+    id: "board-01", title: "TBC",
+    body: ""
+  }, {
+    id: "gamer-02", title: "TBC",
+    body: ""
   }, {
     id: "dad-01", title: "TBC",
     body: ""
