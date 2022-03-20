@@ -84,9 +84,9 @@ const choices = [
     id: "gamer-01", title: "", 
     body: "Een moment als nerd voor zichzelf, zonder kantoor of pedel,",
     options: [
-      {id: "", name: "en nu kunnen ontspannen, met een ROLLENSPEL."},
-      {id: "", name: "en nu kunnen ontspannen, met een BORDSPEL."},
-      {id: "", name: "en nu kunnen ontspannen, met een COMPUTERSPEL."}
+      {id: "rpg-01",   name: "en nu kunnen ontspannen, met een ROLLENSPEL."},
+      {id: "board-01", name: "en nu kunnen ontspannen, met een BORDSPEL."},
+      {id: "gamer-02", name: "en nu kunnen ontspannen, met een COMPUTERSPEL."}
     ] 
   }, {
     id: "rpg-01", title: "TBC",
