@@ -78,7 +78,7 @@ Meta Branc
           GM ENDING 
       > Computer Games 
         > Europa Universalis 
-          PYTRIK ENDING 
+          PYTRIK ENDING (masterrace)
         > Hitman 
           MUNDANE ENDING 
         > Oepsie.
@@ -89,3 +89,7 @@ Meta Branc
           > Stap terug 
             Doe alsof de vorige er weer is. 
             RECURSION ENDING
+
+
+niet denken aan 't kantoor of bureau pedel,",
+    

@@ -74,13 +74,28 @@ const choices = [
       {id: "END", name:"zou hij toch eindelijk aan het spel beginnen!"}
     ]
   }, {
+    id: "play-01", title: "TBC",
+    body: "Ja, hij heeft zich deze week al genoeg uitgesloofd, <br> dus hij zette zijn werk met plezier uit zijn hoofd. <br> Hoe doet hij het? Is het niet knap?",
+    options: [
+      { id: "dad-01", name: "Zijn werk combineren met vaderschap!"},
+      { id: "gamer-01", name: "Verantwoordelijkheden combineren met 1337 gamerschap!"}
+    ]
+  }, {
+    id: "gamer-01", title: "",
+    body: "Een moment als nerd, zonder kantoor of pedel,",
+    options: [
+      {id: "", name: "en nu kunnen ontspannen, met een ROLLENSPEL."},
+      {id: "", name: "en nu kunnen ontspannen, met een BORDSPEL."},
+      {id: "", name: "en nu kunnen ontspannen, met een COMPUTERSPEL."}
+    ] 
+  }, {
+    id: "dad-01", title: "TBC",
+    body: ""
+  }, {
     id: "apoc-01", title: "TBC",
     body: ""
   }, {
     id: "cbs-01", title: "TBC",
     body: ""
-  }, {
-    id: "play-01", title: "TBC",
-    body: ""
-  }
+  }, 
 ]
