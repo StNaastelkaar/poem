@@ -3,6 +3,12 @@ const choices = [
     title: "You dun goofed",
     body: "'t huidige id is 'undefined', je hebt dus iets verkeerd gedaan..."
   }, {
+    id: "END", title: "DIT IS HET EINDE",
+    body: "Wacht, je dacht toch niet dat dit je cadeau was? <br> Pak Stanley's cadeau maar. <br> En zoek een hobby of zo. <br> Of begin opnieuw, ik ben je baas niet.", 
+    options: [
+      {id: "START", name:"Begin Opnieuw"}
+    ]
+  }, {
     id: "START", title: "WELKOM NIEUWE SPELER",
     body: "Toen Darius dit start scherm zach, klikte hij snel op...",
     options: [
@@ -56,12 +62,12 @@ const choices = [
     ]
   }, {
     id: "thesis-02", title: "",
-    body: "Oh wat zal iedereen dan vieren <br> met slingers, taarten, dansjes en zwieren,<br> met aapjes en lachen en zingen en bloemen,",
+    body: "Oh wat zal iedereen dan vieren, <br> met slingers, taarten, dansjes en zwieren,<br> met aapjes en lachen en zingen en bloemen,",
     options: [
-      {id: "thesis-END", name:"en men hem dan eindelijk Doctor Darius kan noemen!"}
+      {id: "generic-END", name:"omdat we hem dan eindelijk Doctor Darius kunnen noemen!"}
     ]
   }, {
-    id: "thesis-END", title: "",
+    id: "generic-END", title: "",
     body: "Oh. Uhm. Darius besefte zich dat, in zijn haast, <br> hij bijna langs het spel heen was geraasd. <br> Na een moment van rust en wat bezinnen, ",
     options: [
       {id: "intro-01", name:"besloot Darius weer vanaf het begin te beginnen."},
@@ -76,11 +82,5 @@ const choices = [
   }, {
     id: "play-01", title: "TBC",
     body: ""
-  }, {
-    id: "END", title: "DIT IS HET EINDE",
-    body: "Wacht, je dacht toch niet dat dit je cadeau was? <br> Pak Stanley's cadeau maar. <br> En zoek een hobby of zo. <br> Of begin opnieuw, ik ben je baas niet.", 
-    options: [
-      {id: "START", name:"Begin Opnieuw"}
-    ]
   }
 ]
