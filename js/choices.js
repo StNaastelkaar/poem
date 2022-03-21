@@ -48,7 +48,7 @@ const choices = [
     ]
   }, {
     id: "serius-02", title: "",
-    body: "\"Maar wacht toch eens een momentje even\", <br> dacht Darius, \"ben ik mijn doel niet voorbij aan het streven?\" <br> Een gedachte ontname hem wat van zijn stoom <br> Want <i>hit</i> zo'n stressvol spel niet wat te <i>close to home!?</i>?<br>\"Wat als dit spel mijn humeur doet verzuren!?\"",
+    body: "\"Maar wacht toch eens een momentje even\", <br> dacht Darius, \"ben ik mijn doel niet voorbij aan het streven?\" <br> De gedachte ontnam hem zijn stoom <br> Want <i>hit</i> zo'n stressvol spel niet wat te <i>close to home!?</i>?<br>\"Wat als dit spel mijn humeur doet verzuren!?\"",
     options: [
       { id: "thesis-01", name: "\"Heb ik naast mijn THESIS niet al genoeg te verduren?\"" },
       { id: "cbs-01", name: "\"Heb ik naast mijn WERK niet al genoeg te verduren?\"" }
@@ -108,6 +108,13 @@ const choices = [
       {id: "generic-END", name: "of econimische topics à la David G."}
     ]
   }, {
+    id: "cbs-01", title: "TBC",
+    body: "\"Werk ik mij niet dat in dag uit in het zweet?\" <br> \"Als hardwerkende pion van de <i>deepstate?\"</i> <br> En zo is het zeker, Darius doet ook zijn best <br> Dag in, dag uit zwoegen voor het see-bee-es. <br> Daar stuurt zijn statistische magie de politieke getijden!",
+    choices: [
+      {id: "good-job-01", name: "En nimmer laat hij zich tot gesjoemel verlijden."},
+      {id: "aivd-01", name: "zodat hij daarmee de politiek kan misleiden."}
+    ]
+  }, {
     id: "board-01", title: "TBC",
     body: ""
   }, {
@@ -119,8 +126,5 @@ const choices = [
   }, {
     id: "apoc-01", title: "TBC",
     body: ""
-  }, {
-    id: "cbs-01", title: "TBC",
-    body: ""
-  }, 
+  }
 ]
