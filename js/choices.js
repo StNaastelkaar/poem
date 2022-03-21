@@ -108,12 +108,27 @@ const choices = [
       {id: "generic-END", name: "of econimische topics à la David G."}
     ]
   }, {
-    id: "cbs-01", title: "TBC",
+    id: "cbs-01", title: "",
     body: "\"Werk ik mij niet dat in dag uit in het zweet?\" <br> \"Als hardwerkende pion van de <i>deepstate?\"</i> <br> En zo is het zeker, Darius doet ook zijn best <br> Dag in, dag uit zwoegen voor het see-bee-es. <br> Daar stuurt zijn statistische magie de politieke getijden!",
     choices: [
       {id: "good-job-01", name: "En nimmer laat hij zich tot gesjoemel verlijden."},
       {id: "aivd-01", name: "zodat hij daarmee de politiek kan misleiden."}
     ]
+  }, {
+    id: "aivd-01", title: "",
+    body: "Als schimmige speler, uit Rutte's klauwen <br> zal hij de trias politica verbouwen <br> Zonder stem of ministerie, of kamervraag",
+    choices: [
+      {id: "aivd-01", name: "Bespeelt hij zijn poppetjes in Den Haag."}
+    ]
+  }, {
+    id: "aivd-02", title: "",
+    body: "Als schimmige speler, buiten Rutte's klauwen <br> zal hij de trias politica verbouwen <br> Tot een <i> sting </i> operatie hem dan eindelijk snoert, <br> en hij in een zwart busje af wordt gevoerd. <br> Naar een geheim strafkamp op Schiermonnikoog <br>",
+    choices: [
+      {id: "generic-END", name: "een zoveelste nummer in het straf-cataloog."}
+    ]
+  }, {
+    id: "good-job-01", title: "TBC",
+    body: ""
   }, {
     id: "board-01", title: "TBC",
     body: ""
