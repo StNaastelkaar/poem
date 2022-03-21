@@ -68,7 +68,7 @@ const choices = [
     ]
   }, {
     id: "generic-END", title: "",
-    body: "Oh. Uhm. Darius besefte zich dat, in zijn haast, <br> hij bijna langs het spel heen was geraasd. <br> Na een moment van rust en wat bezinnen, ",
+    body: "Oh. Uhm. Darius besefte zich dat, in zijn haast, <br> hij bijna langs zijn cadeau heen was geraasd. <br> Na een moment van rust en wat bezinnen, ",
     options: [
       {id: "intro-01", name:"besloot Darius weer vanaf het begin te beginnen."},
       {id: "END", name:"zou hij toch eindelijk aan het spel beginnen!"}
@@ -82,15 +82,31 @@ const choices = [
     ]
   }, {
     id: "gamer-01", title: "", 
-    body: "Een moment als nerd voor zichzelf, zonder kantoor of pedel,",
+    body: "\"Ja\", besloot Darius, \"nu ga ik er voor!\", <br> \"even ontspannen zonder kind of kantoor\", \"zonder thesis of bureau pedel\",",
     options: [
-      {id: "rpg-01",   name: "en nu kunnen ontspannen, met een ROLLENSPEL."},
-      {id: "board-01", name: "en nu kunnen ontspannen, met een BORDSPEL."},
-      {id: "gamer-02", name: "en nu kunnen ontspannen, met een COMPUTERSPEL."}
+      {id: "rpg-01",   name: "\"en nu kunnen ontspannen, met een ROLLENSPEL.\""},
+      {id: "board-01", name: "\"en nu kunnen ontspannen, met een BORDSPEL.\""},
+      {id: "gamer-02", name: "\"en nu kunnen ontspannen, met een COMPUTERSPEL.\""}
     ] 
   }, {
-    id: "rpg-01", title: "TBC",
-    body: ""
+    id: "rpg-01", title: "",
+    body: "Oh de vriendschappen en oh de verhalen, <br> en diepe kerkers om in af te dalen. Ja, weinig dingen kunnen hem zo behagen,",
+    options: [
+      {id: "speler-01",   name: "om als DM de spelers uit te dagen."},
+      {id: "gm-01", name: "om als speler of monsters te jagen."}
+    ] 
+  }, {
+    id: "speler-01", title: "",
+    body: "Een priester, of warlock, een kattige heks, <br> (maar die twee-voor-een krijgers waren toch wat complex) <br> een grote barbaar als koning gekleed, <br> of een jeukend figuur dat men liever vergeet. <br> Talloze heldendaden zal hij nog verrichten,",
+    choices: [
+      {id: "generic-END", name: "ja, als speler draagt Darius duizend gezichten!"}
+    ]
+  }, {
+    id: "gm-01", title: "",
+    body: "Met een stroke van zijn pen, en wat dobbelstenen <br> kan Darius de mooiste werelden mansplainen. <br> Zo creëert hij voor zijn vrienden wel uren aan pret, <br> met Disneyplagiaat of een privé-toilet, <br> met mythen en sagen en ambigu gelegen zee,",
+    choices: [
+      {id: "generic-END", name: "of econimische topics à la David G."}
+    ]
   }, {
     id: "board-01", title: "TBC",
     body: ""
