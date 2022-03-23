@@ -1,4 +1,4 @@
-const choices = [
+const options = [
   { id: "undefined",
     title: "You dun goofed",
     body: "'t huidige id is 'undefined', je hebt dus iets verkeerd gedaan..."
@@ -82,7 +82,7 @@ const choices = [
     ]
   }, {
     id: "gamer-01", title: "", 
-    body: "\"Ja\", besloot Darius, \"nu ga ik er voor!\", <br> \"even ontspannen zonder kind of kantoor\", \"zonder thesis of bureau pedel\",",
+    body: "\"Ja\", besloot Darius, \"nu ga ik er voor!\", <br> \"even ontspannen zonder kind of kantoor\", <br> \"zonder thesis of bureau pedel\",",
     options: [
       {id: "rpg-01",   name: "\"en nu kunnen ontspannen, met een ROLLENSPEL.\""},
       {id: "board-01", name: "\"en nu kunnen ontspannen, met een BORDSPEL.\""},
@@ -90,53 +90,53 @@ const choices = [
     ] 
   }, {
     id: "rpg-01", title: "",
-    body: "Oh de vriendschappen en oh de verhalen, <br> en diepe kerkers om in af te dalen. Ja, weinig dingen kunnen hem zo behagen,",
+    body: "Oh de vriendschappen en oh de verhalen, <br> en diepe kerkers om in af te dalen. <br> Ja, weinig dingen kunnen hem zo behagen,",
     options: [
       {id: "speler-01",   name: "om als DM de spelers uit te dagen."},
       {id: "gm-01", name: "om als speler of monsters te jagen."}
     ] 
   }, {
     id: "speler-01", title: "",
-    body: "Een priester, of warlock, een kattige heks, <br> (maar die twee-voor-een krijgers waren toch wat complex) <br> een grote barbaar als koning gekleed, <br> of een jeukend figuur dat men liever vergeet. <br> Talloze heldendaden zal hij nog verrichten,",
-    choices: [
+    body: "Een priester, of warlock, een kattige heks, <br> (die twee-in-één krijgers waren toch wat complex) <br> een grote barbaar als koning gekleed, <br> of een jeukend figuur dat men liever vergeet. <br> Talloze heldendaden zal hij nog verrichten,",
+    options: [
       {id: "generic-END", name: "ja, als speler draagt Darius duizend gezichten!"}
     ]
   }, {
     id: "gm-01", title: "",
     body: "Met een stroke van zijn pen, en wat dobbelstenen <br> kan Darius de mooiste werelden mansplainen. <br> Zo creëert hij voor zijn vrienden wel uren aan pret, <br> met Disneyplagiaat of een privé-toilet, <br> met mythen en sagen en ambigu gelegen zee,",
-    choices: [
+    options: [
       {id: "generic-END", name: "of econimische topics à la David G."}
     ]
   }, {
     id: "cbs-01", title: "",
     body: "\"Werk ik mij niet dat in dag uit in het zweet?\" <br> \"Als hardwerkende pion van de <i>deepstate?\"</i> <br> En zo is het zeker, Darius doet ook zijn best <br> Dag in, dag uit zwoegen voor het see-bee-es. <br> Daar stuurt zijn statistische magie de politieke getijden!",
-    choices: [
+    options: [
       {id: "good-job-01", name: "En nimmer laat hij zich tot gesjoemel verlijden."},
       {id: "aivd-01", name: "zodat hij daarmee de politiek kan misleiden."}
     ]
   }, {
     id: "aivd-01", title: "",
     body: "Als schimmige speler, uit Rutte's klauwen <br> zal hij de trias politica verbouwen <br> Zonder stem of ministerie, zonder kamervragen",
-    choices: [
+    options: [
       {id: "aivd-01", name: "Bespeelt hij zijn poppetjes in 's Gravenhage'"}
     ]
   }, {
     id: "aivd-02", title: "",
     body: "Als schimmige speler, buiten Rutte's klauwen <br> zal hij de trias politica verbouwen <br> Tot een <i> sting </i> operatie hem dan eindelijk snoert, <br> en hij in een zwart busje af wordt gevoerd. <br> Naar een geheim strafkamp op Schiermonnikoog <br>",
-    choices: [
+    options: [
       {id: "generic-END", name: "een zoveelste nummer in het straf-cataloog."}
     ]
   }, {
     id: "dad-01", title: "",
     body: "\"Ik ben zoveel meer dan een ambtenaar\", <br> en indeerdaad, niets is minder waar. <br> Een hoeder drie magnefieken telgen, <br> doen Darius niet zomaar overweldigen! <br> \"Het Vaderschap\", aldus Darius, \"is een zwaar gevecht\"",
-    choices: [
+    options: [
       { id: "dad-02", name:"\"Een strijd die de komende 18 jaar nog niet is beslecht!\"" },
       { id: "rijm-01", name:"\"Maar die 'telgen' rijm was wel héél slecht.\"" }
     ]
   }, {
     id: "dad-02", title: "",
     body: "Temidden een kleine kudde van kids, <br> oogst hij van het vaderschap de <i> benefits </i>. <br> Maar goed gemutst, doch soms wat warrig <br> wacht hem een toekomst als patriarch! <br> Want al gebeurt het misschien niet <i> soon </i>, <br> ooit wordt deze kleine kudde een legioen! <br> Wanneer straks de kroost van het kroost <br> nog een generatie de wereld in loost. <br> Een krullen-epidemie die exponentieël groeit, <br> ",
-    choices: [
+    options: [
       {id: "generic-END", name: "en de wereld met Opa Darius' vruchten overvloeid!"}
     ]
   }, {
@@ -151,7 +151,7 @@ const choices = [
   }, {
     id: "gamer-02", title: "TBC",
     body: "",
-    choices: [
+    options: [
       {id: "pytrik-01", name: "EU4"},
       {id: "hitman-01", name: "EU4"}
     ]
