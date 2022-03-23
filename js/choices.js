@@ -67,11 +67,11 @@ const choices = [
       {id: "generic-END", name:"omdat we hem dan eindelijk Doctor Darius kunnen noemen!"}
     ]
   }, {
-    id: "generic-END", title: "",
-    body: "Oh. Uhm. Darius besefte zich dat, in zijn haast, <br> hij bijna langs zijn cadeau heen was geraasd. <br> Na een moment van rust en wat bezinnen, ",
+    id: "generic-END", title: "The End?",
+    body: "Oh. Uhm. Darius moest toch echt even toegeven, <br> Dat hij van het oorspronkelijke topic was. <br> Na een moment van rust en wat bezinnen, ",
     options: [
       {id: "intro-01", name:"besloot Darius weer vanaf het begin te beginnen."},
-      {id: "END", name:"zou hij toch eindelijk aan het spel beginnen!"}
+      {id: "END", name:"zou hij toch eindelijk aan zijn cadeau gaan beginnen!"}
     ]
   }, {
     id: "play-01", title: "",
@@ -112,7 +112,7 @@ const choices = [
     body: "\"Werk ik mij niet dat in dag uit in het zweet?\" <br> \"Als hardwerkende pion van de <i>deepstate?\"</i> <br> En zo is het zeker, Darius doet ook zijn best <br> Dag in, dag uit zwoegen voor het see-bee-es. <br> Daar stuurt zijn statistische magie de politieke getijden!",
     options: [
       {id: "good-job-01", name: "En nimmer laat hij zich tot gesjoemel verlijden."},
-      {id: "aivd-01", name: "zodat hij daarmee de politiek kan misleiden."}
+      {id: "aivd-01", name: "Zodat hij daarmee de politiek kan misleiden."}
     ]
   }, {
     id: "aivd-01", title: "",
@@ -162,10 +162,16 @@ const choices = [
     ]
   }, {
     id: "good-job-01", title: "",
-    body: "",
+    body: "En Darius die behendige de <i> corporate ladder </i> beklimt, <br> en elke rapport met cijfers op-pimpt. Zo werkt hij daar al, seizoen na seizoen, ",
     options: [
-      {id: "dad-01", name: ""},
-      {id: "retire-01", name: ""}
+      {id: "dad-01", name: "maar hij houdt ook nog tijd om vader dingen te doen."},
+      {id: "good-job-02", name: "En zo nog veertig jaar door, tot aan zijn pensioen."}
+    ]
+  }, {
+    id: "good-job-02", title: "",
+    body: "En wat bijkt onze Darius is management materiaal, <br> dus hem wacht een promotie tot directeur-generaal. <br> Waar hij met zijn visie een stempel zal drukken <br> en met zijn hervormingen de boel zal ontfucken. <br> En met lintjes, en toasten en een afscheidscommittee",
+    options: [
+      {id: "generic-END", name: "Kan hij op zij acht-en-zeventigste met AOW."}
     ]
   }, {
     id: "ERROR-01", title: "TBC",
