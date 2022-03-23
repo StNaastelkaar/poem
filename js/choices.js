@@ -1,4 +1,4 @@
-const options = [
+const choices = [
   { id: "undefined",
     title: "You dun goofed",
     body: "'t huidige id is 'undefined', je hebt dus iets verkeerd gedaan..."
