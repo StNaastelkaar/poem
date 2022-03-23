@@ -137,8 +137,35 @@ const choices = [
     id: "dad-02", title: "",
     body: "Temidden een kleine kudde van kids, <br> oogst hij van het vaderschap de <i> benefits </i>. <br> Maar goed gemutst, doch soms wat warrig <br> wacht hem een toekomst als patriarch! <br> Want al gebeurt het misschien niet <i> soon </i>, <br> ooit wordt deze kleine kudde een legioen! <br> Wanneer straks de kroost van het kroost <br> nog een generatie de wereld in loost. <br> Een krullen-epidemie die exponentieël groeit, <br> ",
     options: [
-      {id: "generic-END", name: "en de wereld met Opa Darius' vruchten overvloeid!"}
+      {id: "generic-END", name: "en de wereld met Opa Darius' nageslacht overvloeid!"}
     ]
+  }, {
+    id: "gamer-02", title: "",
+    body: "Maar oei, het wordt niet zo simpel, als dat het leek, <br> want hij zal moeten kiezen uit een game-bibliotheek! <br> Gelukkig heeft darius zijn prioriteiten, <br> en weet waaraan hij zijn tijd zal verslijten!\" <br> \"Ik weet\", zo zei Darius \"waar ik voor ga!\"",
+    options: [
+      {id: "pytrik-01", name: "\"Oorlog en handel in historisch Europa!\""},
+      {id: "hitman-01", name: "\"Sluipen en moorden voor de I.C.A.\""},
+    ]
+  }, {
+    id: "hitman-01", title: "",
+    body: "Dus zal hij spelen als een geheim agent <br> en ontspannen terwijl hij de maps verkent. <br> In een wereld waarin hij zijn targets kan snaren",
+    options: [
+      {id: "hitman-02", name:"en waarin hij nooit een <i> bad hair day</i> hoeft te ervaren."},
+      {id: "ERROR-01" , name: "RHYME NOT FOUND - ERROR #104.A"}
+    ]
+  }, {
+    id: "hitman-02", title: "",
+    body: "Maar goed, nu dus, uhm, aller eerst <br> dit spel dat Darius blijkbaar goed heeft beheerst. <br> Keurig ging hij langs mijn menu's, <br> en saaie opties paseerde de revue's <br> Maar zijn keuzes waaren wel erg conservatief,",
+    options: [
+      {id: "intro-01", name:"dus begon hij opnieuw, en was wél creatief."},
+      {id: "END", name:"en pakte Stanley's spel als alternatief."},
+    ]
+  }, {
+    id: "ERROR-01", title: "TBC",
+    body: ""
+  }, {
+    id: "pytrik-01", title: "TBC",
+    body: ""
   }, {
     id: "rijm-01", title: "TBC",
     body: ""
@@ -148,14 +175,7 @@ const choices = [
   }, {
     id: "board-01", title: "TBC",
     body: ""
-  }, {
-    id: "gamer-02", title: "TBC",
-    body: "",
-    options: [
-      {id: "pytrik-01", name: "EU4"},
-      {id: "hitman-01", name: "EU4"}
-    ]
-  }, {
+  },  {
     id: "apoc-01", title: "TBC",
     body: ""
   }
