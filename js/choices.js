@@ -74,7 +74,7 @@ const choices = [
       {id: "END", name:"zou hij toch eindelijk aan het spel beginnen!"}
     ]
   }, {
-    id: "play-01", title: "TBC",
+    id: "play-01", title: "",
     body: "Ja, hij heeft zich deze week al genoeg uitgesloofd, <br> dus hij zette zijn werk met plezier uit zijn hoofd. <br> Hoe doet hij het? Is het niet knap?",
     options: [
       { id: "dad-01", name: "Zijn werk combineren met vaderschap!"},
@@ -116,9 +116,9 @@ const choices = [
     ]
   }, {
     id: "aivd-01", title: "",
-    body: "Als schimmige speler, uit Rutte's klauwen <br> zal hij de trias politica verbouwen <br> Zonder stem of ministerie, of kamervraag",
+    body: "Als schimmige speler, uit Rutte's klauwen <br> zal hij de trias politica verbouwen <br> Zonder stem of ministerie, zonder kamervragen",
     choices: [
-      {id: "aivd-01", name: "Bespeelt hij zijn poppetjes in Den Haag."}
+      {id: "aivd-01", name: "Bespeelt hij zijn poppetjes in 's Gravenhage'"}
     ]
   }, {
     id: "aivd-02", title: "",
@@ -127,6 +127,22 @@ const choices = [
       {id: "generic-END", name: "een zoveelste nummer in het straf-cataloog."}
     ]
   }, {
+    id: "dad-01", title: "",
+    body: "\"Ik ben zoveel meer dan een ambtenaar\", <br> en indeerdaad, niets is minder waar. <br> Een hoeder drie magnefieken telgen, <br> doen Darius niet zomaar overweldigen! <br> \"Het Vaderschap\", aldus Darius, \"is een zwaar gevecht\"",
+    choices: [
+      { id: "dad-02", name:"\"Een strijd die de komende 18 jaar nog niet is beslecht!\"" },
+      { id: "rijm-01", name:"\"Maar die 'telgen' rijm was wel héél slecht.\"" }
+    ]
+  }, {
+    id: "dad-02", title: "",
+    body: "Temidden een kleine kudde van kids, <br> oogst hij van het vaderschap de <i> benefits </i>. <br> Maar goed gemutst, doch soms wat warrig <br> wacht hem een toekomst als patriarch! <br> Want al gebeurt het misschien niet <i> soon </i>, <br> ooit wordt deze kleine kudde een legioen! <br> Wanneer straks de kroost van het kroost <br> nog een generatie de wereld in loost. <br> Een krullen-epidemie die exponentieël groeit, <br> ",
+    choices: [
+      {id: "generic-END", name: "en de wereld met Opa Darius' vruchten overvloeid!"}
+    ]
+  }, {
+    id: "rijm-01", title: "TBC",
+    body: ""
+  }, {
     id: "good-job-01", title: "TBC",
     body: ""
   }, {
@@ -134,10 +150,11 @@ const choices = [
     body: ""
   }, {
     id: "gamer-02", title: "TBC",
-    body: ""
-  }, {
-    id: "dad-01", title: "TBC",
-    body: ""
+    body: "",
+    choices: [
+      {id: "pytrik-01", name: "EU4"},
+      {id: "hitman-01", name: "EU4"}
+    ]
   }, {
     id: "apoc-01", title: "TBC",
     body: ""
