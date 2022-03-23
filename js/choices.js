@@ -55,10 +55,10 @@ const choices = [
     ]
   }, {
     id: "thesis-01", title: "",
-    body: "\"Al dat harde werk, waar doe ik het voor?\",<br>aldus Darius in zijn zachte tenor. <br> En zo mijmerde Darius even, over de dagen en nachten <br> waarin hij rekende met lading en krachten.<br> Maar beloond zal hij worden, als hij nog even door streeft,",
+    body: "\"Al dat harde werk, waar doe ik het voor?\",<br>aldus Darius in zijn zachte tenor. <br> En zo mijmerde Darius even, over de dagen en nachten <br> waarin hij rekende met lading en krachten.<br> Maar beloond zal hij worden, als hij nog iets meer tijd besteedt,",
     options: [
-      { id: "thesis-02", name: "Wanneer hij eindelijk zijn papiertje in handen heeft." },
-      { id: "apoc-01", name: "Waneer de wereld voor zijn kennis beeft." }
+      { id: "thesis-02", name: "wanneer hij dan zijn proefschrift af heeft gesmeed." },
+      { id: "apoc-01", name: "waneer hij de geheimen van het universum ontleedt." }
     ]
   }, {
     id: "thesis-02", title: "",
@@ -174,6 +174,9 @@ const choices = [
       {id: "generic-END", name: "Kan hij op zij acht-en-zeventigste met AOW."}
     ]
   }, {
+    id: "apoc-01", title: "TBC",
+    body: "Want kennis is macht, en hoewel macht corrumpeert"
+  }, {
     id: "ERROR-01", title: "TBC",
     body: ""
   }, {
@@ -184,9 +187,6 @@ const choices = [
     body: ""
   }, {
     id: "board-01", title: "TBC",
-    body: ""
-  },  {
-    id: "apoc-01", title: "TBC",
     body: ""
   }
 ]
