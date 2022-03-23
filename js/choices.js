@@ -161,6 +161,13 @@ const choices = [
       {id: "END", name:"en pakte Stanley's spel als alternatief."},
     ]
   }, {
+    id: "good-job-01", title: "",
+    body: "",
+    options: [
+      {id: "dad-01", name: ""},
+      {id: "retire-01", name: ""}
+    ]
+  }, {
     id: "ERROR-01", title: "TBC",
     body: ""
   }, {
@@ -168,9 +175,6 @@ const choices = [
     body: ""
   }, {
     id: "rijm-01", title: "TBC",
-    body: ""
-  }, {
-    id: "good-job-01", title: "TBC",
     body: ""
   }, {
     id: "board-01", title: "TBC",
