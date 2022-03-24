@@ -10,13 +10,13 @@ const choices = [
     ]
   }, {
     id: "START", title: "WELKOM NIEUWE SPELER",
-    body: "Toen Darius dit start scherm zach, klikte hij snel op...",
+    body: "Toen Darius dit start scherm zag, klikte hij snel op...",
     options: [
       { id: "intro-01", name: "START!" }
     ]
   }, {
     id: "intro-01", title: "TUTORIAL",
-    body: "Darius zette zich lekker schrap, <br> een gloed nieuw spel, oh dat is geen grap! <br> En terwij hij het spel onder ogen zag,",
+    body: "Darius zette zich lekker schrap, <br> een gloednieuw spel, oh dat is geen grap! <br> En terwij hij het spel onder ogen zag,",
     options: [
       { id: "intro-02", name: "verscheen er bij hem een brede lach!" },
       { id: "intro-03", name: "raakte hij toch wat van slag!" }
@@ -25,24 +25,24 @@ const choices = [
     id: "intro-02", title: "",
     body: "\"Dit is leuk\", zij hij, \"dit is uniek\"! <br> Vertelde hij aan zijn publiek. <br> En nog voor Darius zich kon vervelen,",
     options: [
-      { id: "intro-04", name: "maakte hij aanstalte om het gaan te spelen." }
+      { id: "intro-04", name: "maakte hij aanstalten om het gaan te spelen." }
     ]
   }, {
     id: "intro-03", title: "",
-    body: "Hij naam een diepe ademteug en bedaarde snel,",
+    body: "Hij nam een diepe ademteug en bedaarde snel,",
     options: [
       { id: "intro-04", name: "en keek met goede moed naar zijn nieuwe spel." }
     ]
   }, {
     id: "intro-04", title: "",
-    body: "Oh! De spanning! Oh! de mogelijkheden! <br> Maar waar zou hij zijn playthrough aan besteden? <br> \"Ik weet\", zij Darius, \"wat ik wil gamen!\"",
+    body: "Oh! De spanning! Oh! de mogelijkheden! <br> Maar waar zou hij zijn <i> playthrough </i> aan besteden? <br> \"Ik weet\", zij Darius, \"wat ik wil gamen!\"",
     options: [
       { id: "serius-01", name: "\"Een uitdagend spel, vol raadsels en problemen!\"" },
       { id: "play-01", name: "\"Een ontspannen spel, dat ik rustig kan ondernemen!\"" },
     ]
   }, {
     id: "serius-01", title: "",
-    body: "Ja, van een moeijlijk spel, dat valt Darius wel goed.",
+    body: "Ja, een moeilijk spel, dat valt Darius wel goed.",
     options: [
       { id: "serius-02", name: "Dus aan de slag met goede moed!" },
     ]
@@ -68,7 +68,7 @@ const choices = [
     ]
   }, {
     id: "generic-END", title: "The End?",
-    body: "Oh. Uhm. Darius moest toch echt even toegeven, <br> Dat hij van het oorspronkelijke topic was. <br> Na een moment van rust en wat bezinnen, ",
+    body: "Oh. Uhm. Darius moest toch echt even toegeven, <br> Dat hij van het oorspronkelijke topic af was gedreven. <br> Na een moment van rust en wat bezinnen, ",
     options: [
       {id: "intro-01", name:"besloot Darius weer vanaf het begin te beginnen."},
       {id: "END", name:"zou hij toch eindelijk aan zijn cadeau gaan beginnen!"}
@@ -92,8 +92,8 @@ const choices = [
     id: "rpg-01", title: "",
     body: "Oh de vriendschappen en oh de verhalen, <br> en diepe kerkers om in af te dalen. <br> Ja, weinig dingen kunnen hem zo behagen,",
     options: [
-      {id: "speler-01",   name: "om als DM de spelers uit te dagen."},
-      {id: "gm-01", name: "om als speler of monsters te jagen."}
+      {id: "gm-01",   name: "om als DM de spelers uit te dagen."},
+      {id: "speler-01", name: "om als speler op monsters te jagen."}
     ] 
   }, {
     id: "speler-01", title: "",
@@ -109,7 +109,7 @@ const choices = [
     ]
   }, {
     id: "cbs-01", title: "",
-    body: "\"Werk ik mij niet dat in dag uit in het zweet?\" <br> \"Als hardwerkende pion van de <i>deepstate?\"</i> <br> En zo is het zeker, Darius doet ook zijn best <br> Dag in, dag uit zwoegen voor het see-bee-es. <br> Daar stuurt zijn statistische magie de politieke getijden!",
+    body: "\"Werk ik mij niet dag in dag uit in het zweet?\" <br> \"Als hardwerkende pion van de <i>deepstate?\"</i> <br> En zo is het zeker, Darius doet ook zijn best <br> Dag in, dag uit zwoegen voor het see-bee-es. <br> Daar stuurt zijn statistische magie de politieke getijden!",
     options: [
       {id: "good-job-01", name: "En nimmer laat hij zich tot gesjoemel verlijden."},
       {id: "aivd-01", name: "Zodat hij daarmee de politiek kan misleiden."}
@@ -162,10 +162,10 @@ const choices = [
     ]
   }, {
     id: "good-job-01", title: "",
-    body: "En Darius die behendige de <i> corporate ladder </i> beklimt, <br> en elke rapport met cijfers op-pimpt. Zo werkt hij daar al, seizoen na seizoen, ",
+    body: "En Darius, die behendig de <i> corporate ladder </i> beklimt, <br> en elk rapport met cijfers op-pimpt. Zo werkt hij daar al, seizoen na seizoen, ",
     options: [
       {id: "dad-01", name: "maar hij houdt ook nog tijd om vader dingen te doen."},
-      {id: "good-job-02", name: "En zo nog veertig jaar door, tot aan zijn pensioen."}
+      {id: "good-job-02", name: "en zo nog veertig jaar door, tot aan zijn pensioen."}
     ]
   }, {
     id: "good-job-02", title: "",
@@ -194,13 +194,17 @@ const choices = [
     ]
   }, {
     id: "pytrik-02", title: "",
-    body: "En zo begon Pytrik aan zijn mooie spel ... <br> Wacht <i> Pytrik </i>? <br> Dat kan niet kloopen toch <br> Net stond hier nog Darius in mijn script. <br> Welke amateur heeft dit geschreven! <br> Wat een onzin zeg. <br> Een beetje mijn tijd verspillen met dit soort <i> F-tier writing </i>.",
+    body: "En zo begon Pytrik aan zijn mooie spel ... <br> Wacht <i> Pytrik ... ? </i>? <br> Dat kan niet kloopen toch ? <br> Net stond hier nog Darius in mijn script. <br> Welke amateur heeft dit geschreven!? <br> Wat een onzin zeg. <br> Een beetje mijn tijd verspillen met dit soort <i> F-tier writing </i>.",
     options: [
-      {id: "pytrik-END", name: " Nee, nee ik fiks het wel hoor! "}
+      {id: "pytrik-03", name: "Nee, nee ik fiks het wel hoor!"},
+      {id: "intro-01", name: "Of toch maar opnieuw beginnen?"}
     ]
   }, {
-    id: "pytrik", title: "",
-    body: "Darius greep zijn rubberen maskter bij de rand"
+    id: "pytrik-03", title: "",
+    body: "Ahem. Darius greep zijn rubberen masker bij de rand <br> en met een gebaar zowel krachtig als elegant, <br> onhtulde hij zijn grootste geheim!",
+    options: [
+      {id: "pytrik-END", name: "dat hij en Pytrik dezelde persoon zijn!"}
+    ]
   },  {
     id: "ERROR-01", title: "TBC",
     body: ""
