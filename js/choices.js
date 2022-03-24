@@ -174,14 +174,14 @@ const choices = [
       {id: "generic-END", name: "Kan hij op zij acht-en-zeventigste met AOW."}
     ]
   }, {
-    id: "apoc-02", title: "",
+    id: "apoc-END", title: "",
     body: "Oh. Uhm. Ecuses. Dat wert wel heel duister. <br> dus... <br> uh... <br> Laten we doen alsof dit niet gebeurd is ok.",    options: [
       {id: "intro-01", name:"Dus zou je alsjeblieft even opnieuw willen beginnen?"},
       {id: "END", name:"Misschien is het beter als we dit achter ons laten en je iets met je cadeau doet ofzo."},
     ]    
   }, {
     id: "apoc-01", title: "",
-    body: "Met zijn nieuw ijzere theorieën <br>, werpt hij de wereld op zijn knieeën. <br> Want kennis is macht, en macht corrumpeert, <br> en zo ook Darius waneer hij de wereld beheert. <br> De zeeën zullen koken, de onschuldigen gillen <br> wanneer hij de aarde onder ze doet rillen. <br> En hoewel met hem om mededogen zal smeken,",
+    body: "Met zijn nieuw ijzere theorieën, <br>werpt hij de wereld op zijn knieeën. <br> Want kennis is macht, en macht corrumpeert, <br> en zo ook Darius waneer hij de wereld beheert. <br> De zeeën zullen koken, de onschuldigen gillen <br> wanneer hij de aarde onder ze doet rillen. <br> En hoewel met hem om mededogen zal smeken,",
     options: [
       {id: "apoc-END", name:"maakt men geen omelet zonder eieren te breken!"}
     ]    
