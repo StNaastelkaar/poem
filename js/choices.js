@@ -122,13 +122,13 @@ const choices = [
     ]
   }, {
     id: "aivd-02", title: "",
-    body: "Als schimmige speler, buiten Rutte's klauwen <br> zal hij de trias politica verbouwen <br> Tot een <i> sting </i> operatie hem dan eindelijk snoert, <br> en hij in een zwart busje af wordt gevoerd. <br> Naar een geheim strafkamp op Schiermonnikoog <br>",
+    body: "Tot een <i> sting </i> operatie hem dan eindelijk snoert, <br> en hij in een zwart busje af wordt gevoerd. <br> Naar een geheim strafkamp op Schiermonnikoog <br>",
     options: [
       {id: "generic-END", name: "een zoveelste nummer in het straf-cataloog."}
     ]
   }, {
     id: "dad-01", title: "",
-    body: "\"Ik ben zoveel meer dan een ambtenaar\", <br> en indeerdaad, niets is minder waar. <br> Een hoeder drie magnefieken telgen, <br> doen Darius niet zomaar overweldigen! <br> \"Het Vaderschap\", aldus Darius, \"is een zwaar gevecht\"",
+    body: "\"Ik ben zoveel meer dan een ambtenaar\", <br> en indeerdaad, niets is minder waar. <br> Een hoeder van drie magnefieken telgen, <br> doen Darius niet zomaar overweldigen! <br> \"Het Vaderschap\", aldus Darius, \"is een zwaar gevecht\"",
     options: [
       { id: "dad-02", name:"\"Een strijd die de komende 18 jaar nog niet is beslecht!\"" },
       { id: "rijm-01", name:"\"Maar die 'telgen' rijm was wel héél slecht.\"" }
@@ -148,14 +148,14 @@ const choices = [
     ]
   }, {
     id: "hitman-01", title: "",
-    body: "Dus zal hij spelen als een geheim agent <br> en ontspannen terwijl hij de maps verkent. <br> In een wereld waarin hij zijn targets kan snaren",
+    body: "Dus zal hij spelen als een geheim agent <br> en ontspannen terwijl hij de <i> maps </i> verkent. <br> In een wereld waarin hij zijn targets kan snaren",
     options: [
       {id: "hitman-02", name:"en waarin hij nooit een <i> bad hair day</i> hoeft te ervaren."},
       {id: "ERROR-01" , name: "RHYME NOT FOUND - ERROR #104.A"}
     ]
   }, {
     id: "hitman-02", title: "",
-    body: "Maar goed, nu dus, uhm, aller eerst <br> dit spel dat Darius blijkbaar goed heeft beheerst. <br> Keurig ging hij langs mijn menu's, <br> en saaie opties paseerde de revue's <br> Maar zijn keuzes waaren wel erg conservatief,",
+    body: "Maar goed, nu dus, uhm, aller eerst <br> dit spel dat Darius blijkbaar goed heeft beheerst. <br> Keurig ging hij langs mijn menu's, <br> en een reeks saaie opties passeerde de revue's <br> Maar zijn keuzes waren wel erg conservatief,",
     options: [
       {id: "intro-01", name:"dus begon hij opnieuw, en was wél creatief."},
       {id: "END", name:"en pakte Stanley's spel als alternatief."},
@@ -188,20 +188,20 @@ const choices = [
     ]    
   }, {
     id: "pytrik-01", title: "",
-    body: "Een spel dat voor hem een historisch portaal is, <br> het roemruchte Europa Universalis! <br> Met tientalle uitbreiding tot zijn beschikking, <br> Speelt hij als Turk, Spanjaard of Viking. <br> En voor hem geen gedoe met consoles of TVs, <br> een lid is hij immers, van het PC <i>master-race!</i> <br> Een stoïsche jongen, al van kind-af-aans,",
+    body: "Een spel dat voor hem een historisch portaal is, <br> het roemruchte Europa Universalis! <br> Met tientallen uitbreidingen tot zijn beschikking, <br> Speelt hij als Turk, Spanjaard of Viking. <br> En voor hem geen gedoe met consoles of TVs, <br> een lid is hij immers, van het PC <i>master-race!</i> <br> Een stoïsche jongen, al van kind-af-aans,",
     options: [
-      {id: "pytrik-END", name: " al vind men zijn kamer toch wat spartaans."}
+      {id: "pytrik-02", name: "al vind men zijn kamer toch wat spartaans."}
     ]
   }, {
     id: "pytrik-02", title: "",
-    body: "En zo begon Pytrik aan zijn mooie spel ... <br> Wacht <i> Pytrik ... ? </i>? <br> Dat kan niet kloopen toch ? <br> Net stond hier nog Darius in mijn script. <br> Welke amateur heeft dit geschreven!? <br> Wat een onzin zeg. <br> Een beetje mijn tijd verspillen met dit soort <i> F-tier writing </i>.",
+    body: "En zo begon Pytrik aan zijn mooie spel ... <br> Wacht <i> Pytrik ... ? </i>? <br> Dat kan niet kloppen toch ? <br> Net stond hier nog 'Darius' in mijn script. <br> Welke amateur heeft dit geschreven!? <br> Wat een onzin zeg. <br> Een beetje mijn tijd verspillen met dit soort <i> F-tier writing </i>.",
     options: [
       {id: "pytrik-03", name: "Nee, nee ik fiks het wel hoor!"},
       {id: "intro-01", name: "Of toch maar opnieuw beginnen?"}
     ]
   }, {
     id: "pytrik-03", title: "",
-    body: "Ahem. Darius greep zijn rubberen masker bij de rand <br> en met een gebaar zowel krachtig als elegant, <br> onhtulde hij zijn grootste geheim!",
+    body: "Ahem. Darius greep zijn rubberen masker bij de rand <br> en met een gebaar zowel krachtig als elegant, <br> onthulde hij zijn grootste geheim!",
     options: [
       {id: "pytrik-END", name: "dat hij en Pytrik dezelde persoon zijn!"}
     ]
