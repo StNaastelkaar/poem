@@ -175,9 +175,10 @@ const choices = [
     ]
   }, {
     id: "apoc-END", title: "",
-    body: "Oh. Uhm. Ecuses. Dat wert wel heel duister. <br> dus... <br> uh... <br> Laten we doen alsof dit niet gebeurd is ok.",    options: [
-      {id: "intro-01", name:"Dus zou je alsjeblieft even opnieuw willen beginnen?"},
-      {id: "END", name:"Misschien is het beter als we dit achter ons laten en je iets met je cadeau doet ofzo."},
+    body: "Oh. Uhm. Ecuses. Dat werd wel heel duister. <br> dus... <br> uh... <br> Laten we doen alsof dit niet gebeurd is? <nr> OK? <br> Ahem, ",   
+    options: [
+      {id: "intro-01", name:"dus zou je alsjeblieft even opnieuw willen beginnen?"},
+      {id: "END", name:"misschien is het beter als we dit achter ons laten en je iets met je cadeau doet ofzo."},
     ]    
   }, {
     id: "apoc-01", title: "",
