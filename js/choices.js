@@ -141,7 +141,7 @@ const choices = [
     ]
   }, {
     id: "gamer-02", title: "",
-    body: "Maar oei, het wordt niet zo simpel, als dat het leek, <br> want hij zal moeten kiezen uit een game-bibliotheek! <br> Gelukkig heeft darius zijn prioriteiten, <br> en weet waaraan hij zijn tijd zal verslijten!\" <br> \"Ik weet\", zo zei Darius \"waar ik voor ga!\"",
+    body: "Maar oei, het wordt niet zo simpel, als dat het leek, <br> want hij zal moeten kiezen uit een game-bibliotheek! <br> Gelukkig heeft Darius zijn prioriteiten, <br> en weet waaraan hij zijn tijd zal verslijten!\" <br> \"Ik weet\", zo zei Darius \"waar ik voor ga!\"",
     options: [
       {id: "pytrik-01", name: "\"Oorlog en handel in historisch Europa!\""},
       {id: "hitman-01", name: "\"Sluipen en moorden voor de I.C.A.\""},
@@ -181,16 +181,28 @@ const choices = [
       {id: "END", name:"misschien is het beter als we dit achter ons laten en je iets met je cadeau doet ofzo."},
     ]    
   }, {
-    id: "apoc-01", title: "",
+    id: "apoc-01", title: "THE END (TIMES)",
     body: "Met zijn nieuw ijzere theorieën, <br>werpt hij de wereld op zijn knieeën. <br> Want kennis is macht, en macht corrumpeert, <br> en zo ook Darius waneer hij de wereld beheert. <br> De zeeën zullen koken, de onschuldigen gillen <br> wanneer hij de aarde onder ze doet rillen. <br> En hoewel met hem om mededogen zal smeken,",
     options: [
       {id: "apoc-END", name:"maakt men geen omelet zonder eieren te breken!"}
     ]    
   }, {
-    id: "ERROR-01", title: "TBC",
-    body: ""
+    id: "pytrik-01", title: "",
+    body: "Een spel dat voor hem een historisch portaal is, <br> het roemruchte Europa Universalis! <br> Met tientalle uitbreiding tot zijn beschikking, <br> Speelt hij als Turk, Spanjaard of Viking. <br> En voor hem geen gedoe met consoles of TVs, <br> een lid is hij immers, van het PC <i>master-race!</i> <br> Een stoïsche jongen, al van kind-af-aans,",
+    options: [
+      {id: "pytrik-END", name: " al vind men zijn kamer toch wat spartaans."}
+    ]
   }, {
-    id: "pytrik-01", title: "TBC",
+    id: "pytrik-02", title: "",
+    body: "En zo begon Pytrik aan zijn mooie spel ... <br> Wacht <i> Pytrik </i>? <br> Dat kan niet kloopen toch <br> Net stond hier nog Darius in mijn script. <br> Welke amateur heeft dit geschreven! <br> Wat een onzin zeg. <br> Een beetje mijn tijd verspillen met dit soort <i> F-tier writing </i>.",
+    options: [
+      {id: "pytrik-END", name: " Nee, nee ik fiks het wel hoor! "}
+    ]
+  }, {
+    id: "pytrik", title: "",
+    body: "Darius greep zijn rubberen maskter bij de rand"
+  },  {
+    id: "ERROR-01", title: "TBC",
     body: ""
   }, {
     id: "rijm-01", title: "TBC",
