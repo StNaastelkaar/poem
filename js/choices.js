@@ -244,11 +244,11 @@ const choices = [
     id: "board-01", title: "",
     body: "Bordspellen, coöperatiefen of adversarielen, <br> om samen met een goede groep vrienden te spelen. \"Inderdaad\", zo sprak Darius, \"niets is zo prachtig,\"",
     options: [
-      {id: "board-02", name: "blah blah blah tachtig."},
+      {id: "board-02", name: "blah blah blah, blah blah blah, tachtig."},
     ]
   }, {
-    id: "board-02", title: "",
-    body: "\"Bla bla bla\", aldus Darius, \"iets met <i>dice</i>\", <br> nog iets, nog iets, iets met anijs. <br> (Misschien vervangen door een dice - Dais punt? <br>Bla bla bla, geef hem twee keuzes,",
+    id: "board-02", title: "[UNDER CONSTRUCTION]",
+    body: "\"Bla bla bla\", aldus Darius, \"iets met <i>dice</i>\", <br> nog iets, nog iets, iets met anijs. <br> (Misschien vervangen door een dice - Dais pun? <br> Bla bla bla, geef hem twee keuzes,",
     options: [
       {id: "board-END", name: "keuze een (TBD)"},
       {id: "board-END", name: "Keuze 2 (TBD)"},
