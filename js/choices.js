@@ -118,7 +118,7 @@ const choices = [
     id: "aivd-01", title: "",
     body: "Als schimmige speler, uit Rutte's klauwen <br> zal hij de trias politica verbouwen <br> Zonder stem of ministerie, zonder kamervragen",
     options: [
-      {id: "aivd-01", name: "Bespeelt hij zijn poppetjes in 's Gravenhage'"}
+      {id: "aivd-02", name: "Bespeelt hij zijn poppetjes in 's Gravenhage'"}
     ]
   }, {
     id: "aivd-02", title: "",
@@ -175,14 +175,14 @@ const choices = [
     ]
   }, {
     id: "apoc-END", title: "",
-    body: "Oh. Uhm. Ecuses. Dat werd wel heel duister. <br> dus... <br> uh... <br> Laten we doen alsof dit niet gebeurd is? <nr> OK? <br> Ahem, ",   
+    body: "Oh. Uhm. Excuses. Dat werd wel heel duister. <br> dus... <br> uh... <br> Laten we doen alsof dit niet gebeurd is? <nr> OK? <br> Ahem, ",   
     options: [
       {id: "intro-01", name:"dus zou je alsjeblieft even opnieuw willen beginnen?"},
       {id: "END", name:"misschien is het beter als we dit achter ons laten en je iets met je cadeau doet ofzo."},
     ]    
   }, {
     id: "apoc-01", title: "THE END (TIMES)",
-    body: "Met zijn nieuw ijzere theorieën, <br>werpt hij de wereld op zijn knieeën. <br> Want kennis is macht, en macht corrumpeert, <br> en zo ook Darius waneer hij de wereld beheert. <br> De zeeën zullen koken, de onschuldigen gillen <br> wanneer hij de aarde onder ze doet rillen. <br> En hoewel met hem om mededogen zal smeken,",
+    body: "Met zijn nieuw ijzere theorieën, <br>werpt hij de wereld op zijn knieeën. <br> Want kennis is macht, en macht corrumpeert, <br> en zo ook Darius waneer hij de wereld beheert. <br> De zeeën zullen koken, de onschuldigen gillen <br> wanneer hij de aarde onder ze doet rillen. <br> En hoewel men hem om mededogen zal smeken,",
     options: [
       {id: "apoc-END", name:"maakt men geen omelet zonder eieren te breken!"}
     ]    
