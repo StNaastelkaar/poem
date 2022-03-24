@@ -290,9 +290,9 @@ const choices = [
     body: "Darius zet̷te zich lekker schrap, <br> een ʍnǝᴉupǝoʅƃ spel, oh dat is geen grap! <br> En terwij hij het spel onder oͦgeͤn zag,",
     options: [
       { id: "R-intro-02-a", name: "verscheen er bij hem een brede lach!" },
-      { id: "E-intro-02-a", name: "ʳᵃᵃᵏᵗᵉ ʰⁱʲ ᵗᵒᶜʰ ʷᵃᵗ ᵛᵃⁿ ˢˡᵃᵍ!" },
-      { id: "E-intro-03", name: "r̴a̴a̸k̴t̶e̸ ̵h̷i̷j̵ ̷t̵o̷c̷h̵ ̴w̷a̶t̸ ̶v̵a̶n̴ ̶s̵l̶a̵g̷!" },
-      { id: "E-intro-03", name: "r̷̯̓ä̴̱́á̴͇k̴̢͘t̷̤̐ė̶̝ ̷̥͗h̶̥͆i̴̦͛j̷͎͒ ̸̞̓t̸̞̽o̵̞͋c̶̭̅h̵̍͜ ̶͉̓w̵̱͊ă̷͎t̸͔̅ ̷͓́v̸̛̩a̷͈͐n̸̻̽ ̴̳̃s̴̫̎l̷̝̎ả̴̟g̶̻͠!̸̛̹" }
+      { id: "R-intro-02-a", name: "ʳᵃᵃᵏᵗᵉ ʰⁱʲ ᵗᵒᶜʰ ʷᵃᵗ ᵛᵃⁿ ˢˡᵃᵍ!" },
+      { id: "E-intro-02", name: "r̴a̴a̸k̴t̶e̸ ̵h̷i̷j̵ ̷t̵o̷c̷h̵ ̴w̷a̶t̸ ̶v̵a̶n̴ ̶s̵l̶a̵g̷!" },
+      { id: "E-intro-02", name: "r̷̯̓ä̴̱́á̴͇k̴̢͘t̷̤̐ė̶̝ ̷̥͗h̶̥͆i̴̦͛j̷͎͒ ̸̞̓t̸̞̽o̵̞͋c̶̭̅h̵̍͜ ̶͉̓w̵̱͊ă̷͎t̸͔̅ ̷͓́v̸̛̩a̷͈͐n̸̻̽ ̴̳̃s̴̫̎l̷̝̎ả̴̟g̶̻͠!̸̛̹" }
     ]
   }, {
     id: "R-intro-02-a", title: "",
@@ -387,5 +387,22 @@ const choices = [
     options: [
       { id: "END", name: "snel door naar het cadeau?" }
     ]
+  }, {
+    id: "E-intro-02", title: "",
+    body: "IMPORT.RIJMREGEL.GENERATE(TOPIC=\"BORDSPELLEN\", n=18677) <br> IMPORT.RIJMREGEL.GENERATE(TOPIC=\"BORDSPELLEN\", n=18678) <br> IMPORT.RIJMREGEL.GENERATE(TOPIC=\"BORDSPELLEN\", n=18679",
+    options: [
+      {id: "E-intro-03", name: "SPEL.BORDSPEL:OPTIE#11-WL-83"},
+      {id: "E-intro-03", name: "SPEL.BORDSPEL:OPTIE#11-WL-84"},
+    ]
+  }, {
+    id: "E-intro-03", title: "",
+    body: "Oh nee. Dat zag je niet. <br> Vertel me dat je dat niet zag! <br> Niemand hoort dat te zien. <br> Dit kunnen we oplossen!",
+    options: [
+      {id: "E-START", name: "RETRY"},
+      {id: "START", name: "RESTART"},
+      {id: "REBOOT-END", name: "REBOOT"}
+    ]
   }
 ]
+
+
