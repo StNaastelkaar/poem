@@ -201,7 +201,7 @@ const choices = [
     ]
   }, {
     id: "pytrik-03", title: "",
-    body: "Ahem. Darius greep zijn rubberen masker bij de rand <br> en met een gebaar zowel krachtig als elegant, <br> onthulde hij zijn grootste geheim!",
+    body: "Ahem. <br> Darius greep zijn rubberen masker bij de rand <br> en met een gebaar zowel krachtig als elegant, <br> onthulde hij zijn grootste geheim!",
     options: [
       {id: "pytrik-END", name: "dat hij en Pytrik dezelde persoon zijn!"}
     ]
