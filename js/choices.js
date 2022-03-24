@@ -214,14 +214,25 @@ const choices = [
     ]
   }, {
     id: "rijm-01", title: "Seriously?",
-    body: "Luister eens. Weet Darius wel hoeveel effing werk het is om heel <i> choose your own adventure </i> gedicht te schrijven? Hmm? <br> Dus ja, niet elke rijm en niet elk metrum gaat van de hoogstaande kwaliteit zijn die meneer blijkbaar gewend is! <br> Tschjongejonge zeg.",
+    body: "Luister eens. Weet je wel hoeveel effing werk het is om heel <i> choose your own adventure </i> gedicht te schrijven? Hmm? <br> Dus ja, niet elke rijm en niet elk metrum gaat van de hoogstaande kwaliteit zijn die meneer blijkbaar gewend is! <br> Tschjongejonge zeg.",
     options: [
-      {id: "rijm-02", name: "\"Ja uhm sorry, maar kunnen we toch verder gaan?\""},
+      {id: "rijm-02", name: "\"Ja uhm, maar kunnen we toch verder gaan?\""},
       {id: "intro-01", name: "\"Nou sorry hoor, ik probeer het wel opnieuw."}
     ]
   }, {
-    id: "rijm-01", title: "TBC",
-    body: ""
+    id: "rijm-02", title: "",
+    body: "Prima, prima. <br> Doorgaan alsof er niks gebeurd is. <br> Hm... <br> Nou wat wil je? Gedicht 'A' of 'B'?",
+    options: [
+      {id: "rijm-END-A", name: "\"Doe maar A?\""},
+      {id: "rijm-END-B", name: "\"Sorry, doe maar B?\""},
+    ]
+  }, {
+    id: "rijm-END-A", title: "",
+    body: "Er was eens een man in Zoetermeer, <br> Die keek op dichters neer <br> Die vent die was <i> wack </i> <br> en keek elk paard in de bek <br> zonder ook maar een 'sorry meneer'",
+    options: [
+      {id: "intro-01", name:"\"Eh, sorry. Ik probeer het nog wel een keertje.\""},
+      {id: "END", name:"\"Vind je het goed als ik toch maar even mijn cadeau ga bekijken?\""},
+    ]
   }, {
     id: "ERROR-01", title: "TBC",
     body: ""
