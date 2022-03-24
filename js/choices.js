@@ -207,7 +207,7 @@ const choices = [
     ]
   },  {
     id: "pytrik-END", title: "THE END?",
-    body: "<img src=\"https://stnaastelkaar.github.io/poem/mns.png\">",
+    body: "<img src=\"https://stnaastelkaar.github.io/poem/mns.png\", width=\"230\">",
     options: [
       {id: "intro-01", name:"Begin opnieuw."},
       {id: "END", name:"THE END!"},
