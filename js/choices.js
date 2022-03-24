@@ -261,7 +261,18 @@ const choices = [
       {id: "END", name: "Hoewel ik het ook snap als je door wilt naar je cadeau."},
     ]
   }, {
-    id: "ERROR-01", title: "TBC",
-    body: ""
+    id: "ERROR-01", title: "ERROR #104.A",
+    body: "Oeps. Dit is vervelend zeg. <br> Dit gebeurt meestal nooit! <br> Zou je het nog een keer willen proberen?",
+    options: [
+      {id: "E-hitman-01", name: "Probeer opnieuw."}
+    ]
+  },
+  {
+    id: "E-hitman-01", title: "",
+    body: "uǝɹɐus uɐʞ sʇǝƃɹɐʇ uɾᴉz ɾᴉɥ uᴉɹɐɐʍ plǝɹǝʍ uǝǝ uI <br> ʇuǝʞɹǝʌ sdɐɯ ǝp ɾᴉɥ lɾᴉʍɹǝʇ uǝuuɐdsʇuo uǝ <br> ʇuǝƃɐ ɯᴉǝɥǝƃ uǝǝ slɐ uǝlǝds ɾᴉɥ lɐz snp ",
+    options: [
+      {id: "E-hitman-02", name: "uǝɹɐʌɹǝ ǝʇ ʇɟǝoɥ ʎɐp ɹᴉɐɥ pɐq uǝǝ ʇᴉoou ɾᴉɥ uᴉɹɐɐʍ uǝ"},
+      {id: "E-hitman-03", name: "uǝɹɐds uɐʞ do sʇuǝɯǝʌǝᴉɥɔɐ uǝ"}
+    ]
   }
 ]
