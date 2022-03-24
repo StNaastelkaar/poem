@@ -290,7 +290,7 @@ const choices = [
     body: "Darius zet̷te zich lekker schrap, <br> een ʍnǝᴉupǝoʅƃ spel, oh dat is geen grap! <br> En terwij hij het spel onder oͦgeͤn zag,",
     options: [
       { id: "R-intro-02-a", name: "verscheen er bij hem een brede lach!" },
-      { id: "E-intro-03", name: "ʳᵃᵃᵏᵗᵉ ʰⁱʲ ᵗᵒᶜʰ ʷᵃᵗ ᵛᵃⁿ ˢˡᵃᵍ!" },
+      { id: "E-intro-02-a", name: "ʳᵃᵃᵏᵗᵉ ʰⁱʲ ᵗᵒᶜʰ ʷᵃᵗ ᵛᵃⁿ ˢˡᵃᵍ!" },
       { id: "E-intro-03", name: "r̴a̴a̸k̴t̶e̸ ̵h̷i̷j̵ ̷t̵o̷c̷h̵ ̴w̷a̶t̸ ̶v̵a̶n̴ ̶s̵l̶a̵g̷!" },
       { id: "E-intro-03", name: "r̷̯̓ä̴̱́á̴͇k̴̢͘t̷̤̐ė̶̝ ̷̥͗h̶̥͆i̴̦͛j̷͎͒ ̸̞̓t̸̞̽o̵̞͋c̶̭̅h̵̍͜ ̶͉̓w̵̱͊ă̷͎t̸͔̅ ̷͓́v̸̛̩a̷͈͐n̸̻̽ ̴̳̃s̴̫̎l̷̝̎ả̴̟g̶̻͠!̸̛̹" }
     ]
@@ -346,7 +346,7 @@ const choices = [
     options: [
       { id: "R-intro-02-d", name: "verscheen er bij hem een brede lach!" },
       { id: "R-intro-02-d", name: "raakte hij toch wat van slag!"},
-      { id: "R-intro-02-e", name: "Laatste poging."}
+      { id: "R-intro-02-e", name: "Oké, Oké. Laatste poging."}
     ]
   }, {
     id: "R-intro-02-e", title: "",
@@ -363,26 +363,26 @@ const choices = [
       { id: "REBOOT-END", name: "REBOOT"}
     ]
   }, {
-    id: "REBOOT-END", title: "REBOOTING",
+    id: "REBOOT-END", title: "REBOOTING |",
     body: "",
     options: [
       { id: "REBOOT-END-2", name: "..." }
     ]
   }, {
-    id: "REBOOT-END-2", title: "REBOOTING",
+    id: "REBOOT-END-2", title: "REBOOTING /",
     body: "Het systeem start op. <br> Dit kan enkele momenten duren.",
     options: [
       { id: "REBOOT-END-3", name: "..." }
     ]
   }, {
-    id: "REBOOT-END-3", title: "REBOOTING",
+    id: "REBOOT-END-3", title: "REBOOTING ⎯",
     body: "",
     options: [
-      { id: "START-END-3", name: "..." },
+      { id: "START", name: "..." },
       { id: "REBOOT-END-4", name: "ABORT BOOT SEQUENCE"},
     ]
   }, {
-    id: "REBOOT-END-3", title: "REBOOTING",
+    id: "REBOOT-END-4", title: "REBOOTING \\",
     body: "BOOT SEQUENCE ABORTED ",
     options: [
       { id: "END", name: "snel door naar het cadeau?" }
