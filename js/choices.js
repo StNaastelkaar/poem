@@ -266,13 +266,46 @@ const choices = [
     options: [
       {id: "E-hitman-01", name: "Probeer opnieuw."}
     ]
-  },
-  {
+  }, {
     id: "E-hitman-01", title: "",
     body: "uǝɹɐus uɐʞ sʇǝƃɹɐʇ uɾᴉz ɾᴉɥ uᴉɹɐɐʍ plǝɹǝʍ uǝǝ uI <br> ʇuǝʞɹǝʌ sdɐɯ ǝp ɾᴉɥ lɾᴉʍɹǝʇ uǝuuɐdsʇuo uǝ <br> ʇuǝƃɐ ɯᴉǝɥǝƃ uǝǝ slɐ uǝlǝds ɾᴉɥ lɐz snp ",
     options: [
-      {id: "E-hitman-02", name: "uǝɹɐʌɹǝ ǝʇ ʇɟǝoɥ ʎɐp ɹᴉɐɥ pɐq uǝǝ ʇᴉoou ɾᴉɥ uᴉɹɐɐʍ uǝ"},
-      {id: "E-hitman-03", name: "uǝɹɐds uɐʞ do sʇuǝɯǝʌǝᴉɥɔɐ uǝ"}
+      {id: "ERROR-02", name: "uǝɹɐʌɹǝ ǝʇ ʇɟǝoɥ ʎɐp ɹᴉɐɥ pɐq uǝǝ ʇᴉoou ɾᴉɥ uᴉɹɐɐʍ uǝ"},
+      {id: "ERROR-02", name: "uǝɹɐds uɐʞ do sʇuǝɯǝʌǝᴉɥɔɐ uǝ"}
+    ]
+  }, {
+    id: "ERROR-02", title: "FATAL ERROR #722.Ω.8",
+    body: "Oh nee! <br> Wacht nee, niks aan de hand. <br> Niks te zien hier.",
+    options: [
+      {id: "E-START", name: "Begin maar gewoon opnieuw."}
+    ]
+  }, {
+    id: "E-START", title: "WELKOM NIEUWE SPELER",
+    body: "Toen Darius dit start scherm zag, klikte hij snel op...",
+    options: [
+      { id: "E-intro-01", name: "S̶T̶A̷R̵T̶!" }
+    ]
+  }, {
+    id: "E-intro-01", title: "TUTORIAL",
+    body: "Darius zet̷te zich lekker schrap, <br> een ʍnǝᴉupǝoʅƃ spel, oh dat is geen grap! <br> En terwij hij het spel onder oͦgeͤn zag,",
+    options: [
+      { id: "R-intro-02-a", name: "verscheen er bij hem een brede lach!" },
+      { id: "E-intro-03", name: "raakte hij toch wat van slag!" },
+      { id: "E-intro-03", name: "r̴a̴a̸k̴t̶e̸ ̵h̷i̷j̵ ̷t̵o̷c̷h̵ ̴w̷a̶t̸ ̶v̵a̶n̴ ̶s̵l̶a̵g̷!" },
+      { id: "E-intro-03", name: "r̷̯̓ä̴̱́á̴͇k̴̢͘t̷̤̐ė̶̝ ̷̥͗h̶̥͆i̴̦͛j̷͎͒ ̸̞̓t̸̞̽o̵̞͋c̶̭̅h̵̍͜ ̶͉̓w̵̱͊ă̷͎t̸͔̅ ̷͓́v̸̛̩a̷͈͐n̸̻̽ ̴̳̃s̴̫̎l̷̝̎ả̴̟g̶̻͠!̸̛̹" }
+    ]
+  }, {
+    id: "R-intro-02-a", title: "",
+    body: "\"Dit is leuk\", zij hij, \"dit is uniek\"! <br> Vertelde hij aan zijn publiek. <br> En nog voor Darius zich kon vervelen,",
+    options: [
+      { id: "R-intro-01-a", name: "maakte hij aanstalten om het gaan te spelen." }
+    ]
+  }, {
+    id: "R-intro-01-a", title: "TUTORIAL",
+    body: "Darius zette zich lekker schrap, <br> een gloednieuw spel, oh dat is geen grap! <br> En terwij hij het spel onder ogen zag,",
+    options: [
+      { id: "R-intro-02-a", name: "verscheen er bij hem een brede lach!" },
+      { id: "R-intro-02-a", name: "raakte hij toch wat van slag!" }
     ]
   }
 ]
