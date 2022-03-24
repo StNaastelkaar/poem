@@ -206,6 +206,13 @@ const choices = [
       {id: "pytrik-END", name: "dat hij en Pytrik dezelde persoon zijn!"}
     ]
   },  {
+    id: "pytrik-END", title: "THE END?",
+    body: "<img src=\"https://stnaastelkaar.github.io/poem/mns.png\">",
+    options: [
+      {id: "intro-01", name:"Begin opnieuw."},
+      {id: "END", name:"THE END!"},
+    ]
+  }, {
     id: "ERROR-01", title: "TBC",
     body: ""
   }, {
