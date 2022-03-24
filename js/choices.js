@@ -275,7 +275,7 @@ const choices = [
     ]
   }, {
     id: "ERROR-02", title: "FATAL ERROR #722.Ω.8",
-    body: "Oh nee! <br> Wacht nee, niks aan de hand. <br> Niks te zien hier.",
+    body: "Oh nee! <br> Oh nee... <br> Oh nee. <br> Wacht nee, niks aan de hand. <br> Het is zo opgelost!",
     options: [
       {id: "E-START", name: "Begin maar gewoon opnieuw."}
     ]
@@ -290,7 +290,7 @@ const choices = [
     body: "Darius zet̷te zich lekker schrap, <br> een ʍnǝᴉupǝoʅƃ spel, oh dat is geen grap! <br> En terwij hij het spel onder oͦgeͤn zag,",
     options: [
       { id: "R-intro-02-a", name: "verscheen er bij hem een brede lach!" },
-      { id: "E-intro-03", name: "raakte hij toch wat van slag!" },
+      { id: "E-intro-03", name: "ʳᵃᵃᵏᵗᵉ ʰⁱʲ ᵗᵒᶜʰ ʷᵃᵗ ᵛᵃⁿ ˢˡᵃᵍ!" },
       { id: "E-intro-03", name: "r̴a̴a̸k̴t̶e̸ ̵h̷i̷j̵ ̷t̵o̷c̷h̵ ̴w̷a̶t̸ ̶v̵a̶n̴ ̶s̵l̶a̵g̷!" },
       { id: "E-intro-03", name: "r̷̯̓ä̴̱́á̴͇k̴̢͘t̷̤̐ė̶̝ ̷̥͗h̶̥͆i̴̦͛j̷͎͒ ̸̞̓t̸̞̽o̵̞͋c̶̭̅h̵̍͜ ̶͉̓w̵̱͊ă̷͎t̸͔̅ ̷͓́v̸̛̩a̷͈͐n̸̻̽ ̴̳̃s̴̫̎l̷̝̎ả̴̟g̶̻͠!̸̛̹" }
     ]
@@ -304,8 +304,88 @@ const choices = [
     id: "R-intro-01-a", title: "TUTORIAL",
     body: "Darius zette zich lekker schrap, <br> een gloednieuw spel, oh dat is geen grap! <br> En terwij hij het spel onder ogen zag,",
     options: [
-      { id: "R-intro-02-a", name: "verscheen er bij hem een brede lach!" },
-      { id: "R-intro-02-a", name: "raakte hij toch wat van slag!" }
+      { id: "R-intro-02-b", name: "verscheen er bij hem een brede lach!" },
+      { id: "R-intro-02-b", name: "raakte hij toch wat van slag!" }
+    ]
+  },  {
+    id: "R-intro-02-b", title: "",
+    body: "\"Dit is leuk\", zij hij, \"dit is uniek\"! <br> Vertelde hij aan zijn publiek. <br> En nog voor Darius zich kon vervelen,",
+    options: [
+      { id: "R-intro-01-b", name: "maakte hij aanstalten om het gaan te spelen." }
+    ]
+  }, {
+    id: "R-intro-01-b", title: "TUTORIAL",
+    body: "Darius zette zich lekker schrap, <br> een gloednieuw spel, oh dat is geen grap! <br> En terwij hij het spel onder ogen zag,",
+    options: [
+      { id: "R-intro-02-c", name: "verscheen er bij hem een brede lach!" },
+      { id: "R-intro-02-c", name: "raakte hij toch wat van slag!" }
+    ]
+  }, {
+    id: "R-intro-02-c", title: "",
+    body: "\"Dit is leuk\", zij hij, \"dit is uniek\"! <br> Vertelde hij aan zijn publiek. <br> En nog voor Darius zich kon vervelen,",
+    options: [
+      { id: "R-intro-01-c", name: "maakte hij aanstalten om het gaan te spelen." }
+    ]
+  }, {
+    id: "R-intro-01-c", title: "TUTORIAL",
+    body: "Darius zette zich lekker schrap, <br> een gloednieuw spel, oh dat is geen grap! <br> En terwij hij het spel onder ogen zag,",
+    options: [
+      { id: "R-intro-02-c", name: "verscheen er bij hem een brede lach!" },
+      { id: "R-intro-02-c", name: "raakte hij toch wat van slag!"},
+      { id: "R-intro-02-d", name: "Sorry, er zit toch iets vast in het systeem."}
+    ]
+  }, {
+    id: "R-intro-02-d", title: "",
+    body: "\"Dit is leuk\", zij hij, \"dit is uniek\"! <br> Vertelde hij aan zijn publiek. <br> En nog voor Darius zich kon vervelen,",
+    options: [
+      { id: "R-intro-01-d", name: "maakte hij aanstalten om het gaan te spelen." }
+    ]
+  }, {
+    id: "R-intro-01-d", title: "TUTORIAL",
+    body: "Darius zette zich lekker schrap, <br> een gloednieuw spel, oh dat is geen grap! <br> En terwij hij het spel onder ogen zag,",
+    options: [
+      { id: "R-intro-02-d", name: "verscheen er bij hem een brede lach!" },
+      { id: "R-intro-02-d", name: "raakte hij toch wat van slag!"},
+      { id: "R-intro-02-e", name: "Laatste poging."}
+    ]
+  }, {
+    id: "R-intro-02-e", title: "",
+    body: "\"Dit is leuk\", zij hij, \"dit is uniek\"! <br> Vertelde hij aan zijn publiek. <br> En nog voor Darius zich kon vervelen,",
+    options: [
+      { id: "R-intro-01-e", name: "maakte hij aanstalten om het gaan te spelen." }
+    ]
+  }, {
+    id: "R-intro-01-e", title: "TUTORIAL",
+    body: "Darius zette zich lekker schrap, <br> een gloednieuw spel, oh dat is geen grap! <br> En terwij hij het spel onder ogen zag,",
+    options: [
+      { id: "R-intro-02-e", name: "verscheen er bij hem een brede lach!" },
+      { id: "R-intro-02-e", name: "raakte hij toch wat van slag!"},
+      { id: "REBOOT-END", name: "REBOOT"}
+    ]
+  }, {
+    id: "REBOOT-END", title: "REBOOTING",
+    body: "",
+    options: [
+      { id: "REBOOT-END-2", name: "..." }
+    ]
+  }, {
+    id: "REBOOT-END-2", title: "REBOOTING",
+    body: "Het systeem start op. <br> Dit kan enkele momenten duren.",
+    options: [
+      { id: "REBOOT-END-3", name: "..." }
+    ]
+  }, {
+    id: "REBOOT-END-3", title: "REBOOTING",
+    body: "",
+    options: [
+      { id: "START-END-3", name: "..." },
+      { id: "REBOOT-END-4", name: "ABORT BOOT SEQUENCE"},
+    ]
+  }, {
+    id: "REBOOT-END-3", title: "REBOOTING",
+    body: "BOOT SEQUENCE ABORTED ",
+    options: [
+      { id: "END", name: "snel door naar het cadeau?" }
     ]
   }
 ]
