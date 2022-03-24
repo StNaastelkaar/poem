@@ -207,16 +207,23 @@ const choices = [
     ]
   },  {
     id: "pytrik-END", title: "THE END?",
-    body: "<img src=\"https://stnaastelkaar.github.io/poem/mns.png\", width=\"230\">",
+    body: "<img src=\"https://stnaastelkaar.github.io/poem/mns.png\", width=\"300\">",
     options: [
       {id: "intro-01", name:"Begin opnieuw."},
       {id: "END", name:"THE END!"},
     ]
   }, {
-    id: "ERROR-01", title: "TBC",
-    body: ""
+    id: "rijm-01", title: "Seriously?",
+    body: "Luister eens. Weet Darius wel hoeveel effing werk het is om heel <i> choose your own adventure </i> gedicht te schrijven? Hmm? <br> Dus ja, niet elke rijm en niet elk metrum gaat van de hoogstaande kwaliteit zijn die meneer blijkbaar gewend is! <br> Tschjongejonge zeg.",
+    options: [
+      {id: "rijm-02", name: "\"Ja uhm sorry, maar kunnen we toch verder gaan?\""},
+      {id: "intro-01", name: "\"Nou sorry hoor, ik probeer het wel opnieuw."}
+    ]
   }, {
     id: "rijm-01", title: "TBC",
+    body: ""
+  }, {
+    id: "ERROR-01", title: "TBC",
     body: ""
   }, {
     id: "board-01", title: "TBC",
