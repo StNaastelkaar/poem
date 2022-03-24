@@ -228,16 +228,40 @@ const choices = [
     ]
   }, {
     id: "rijm-END-A", title: "",
-    body: "Er was eens een man in Zoetermeer, <br> Die keek op dichters neer <br> Die vent die was <i> wack </i> <br> en keek elk paard in de bek <br> zonder ook maar een 'sorry meneer'",
+    body: "Er was eens een man in Zoetermeer, <br> Die keek op dichters neer <br> Die vent die was <i> wack </i> <br> en keek elk paard in de bek <br> zonder ook maar een 'sorry meneer'.",
     options: [
       {id: "intro-01", name:"\"Eh, sorry. Ik probeer het nog wel een keertje.\""},
       {id: "END", name:"\"Vind je het goed als ik toch maar even mijn cadeau ga bekijken?\""},
     ]
   }, {
-    id: "ERROR-01", title: "TBC",
-    body: ""
+    id: "rijm-END-A", title: "",
+    body: "Cadeau's en vriendschap, <br> verbroederende giften, <br> op Sint Naastelkaar.",
+    options: [
+      {id: "intro-01", name:"\"Dankje wel, erg mooi, ik zal het nog een keer proberen.\""},
+      {id: "END", name:"\"Uhm ja, dankjewel. Ik ga nu toch even naar het echte cadeau.\""},
+    ]
   }, {
-    id: "board-01", title: "TBC",
+    id: "board-01", title: "",
+    body: "Bordspellen, coöperatiefen of adversarielen, <br> om samen met een goede groep vrienden te spelen. \"Inderdaad\", zo sprak Darius, \"niets is zo prachtig,\"",
+    options: [
+      {id: "board-02", name: "blah blah blah tachtig."},
+    ]
+  }, {
+    id: "board-02", title: "",
+    body: "\"Bla bla bla\", aldus Darius, \"iets met <i>dice</i>\", <br> nog iets, nog iets, iets met anijs. <br> (Misschien vervangen door een dice - Dais punt? <br>Bla bla bla, geef hem twee keuzes,",
+    options: [
+      {id: "board-END", name: "keuze een (TBD)"},
+      {id: "board-END", name: "Keuze 2 (TBD)"},
+    ]
+  }, {
+    id: "board-END", title: "",
+    body: "Oh, dit is genant zeg. <br> Ik had eigenlijk niet verwacht dat je hier zou komen. <br> Nou, vooruit, uhm goed gedaan hoor, de enige plek gevonden die niet voorbereid is. <br> Gefeliciteerd.",
+    options: [
+      {id: "intro-01", name: "Maar begin vooral een keer opnieuw."},
+      {id: "END", name: "Hoewel ik het ook snap als je door wilt naar je cadeau."},
+    ]
+  }, {
+    id: "ERROR-01", title: "TBC",
     body: ""
   }
 ]
