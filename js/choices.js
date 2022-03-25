@@ -10,7 +10,7 @@ const choices = [
     ]
    }, {
     id: "START", title: "WELKOM NIEUWE SPELER",
-    body: "Toen Darius dit start scherm zag, klikte hij snel op...",
+    body: "<img src=\"https://stnaastelkaar.github.io/poem/logo.png\", width=\"300\"> <br> Toen Darius dit start scherm zag, klikte hij snel op...",
     options: [
      { id: "intro-01", name: "START!" }
     ]
